@@ -1,0 +1,103 @@
+/**
+ * The only front end styling the plugin does. Everything else on checkout belongs to the theme.
+ */
+
+.pc-checkout {
+	--pc-hero-a: #1c1b21;
+	--pc-hero-b: #0d2820;
+	--pc-line: #e4e5ea;
+	--pc-muted: #6b6f7b;
+	--pc-action: #12131a;
+}
+
+.pc-checkout .pc-redirect {
+	text-align: center;
+	padding: 34px 20px;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.pc-checkout .pc-redirect__glyph {
+	inline-size: 44px;
+	block-size: 44px;
+	border-radius: 11px;
+	background: linear-gradient( 100deg, var(--pc-hero-a), var(--pc-hero-b) );
+	color: #fff;
+	margin: 0 auto 16px;
+	display: grid;
+	place-items: center;
+}
+
+.pc-checkout .pc-redirect__title { margin: 0 0 6px; font-size: 1.15em; }
+.pc-checkout .pc-redirect__note { margin: 0; color: var(--pc-muted); font-size: .9em; }
+
+.pc-checkout .pc-redirect__actions {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-block-start: 18px;
+}
+
+.pc-checkout .pc-redirect__error { color: #a01212; }
+
+/*
+ * The buttons carry their own look rather than the theme's. This page is only ever seen when the
+ * automatic redirect did not fire, and the classic WooCommerce button classes render as browser
+ * defaults on a block theme, which is exactly the moment the button has to look trustworthy.
+ */
+.pc-checkout .pc-redirect__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-block-size: 44px;
+	padding: 0 22px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	font: inherit;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+
+.pc-checkout .pc-redirect__btn--primary {
+	background: var(--pc-action);
+	color: #fff;
+}
+
+.pc-checkout .pc-redirect__btn--primary:hover,
+.pc-checkout .pc-redirect__btn--primary:focus {
+	background: #000;
+	color: #fff;
+}
+
+.pc-checkout .pc-redirect__btn--ghost {
+	background: transparent;
+	border-color: var(--pc-line);
+	color: var(--pc-muted);
+}
+
+.pc-checkout .pc-redirect__btn--ghost:hover,
+.pc-checkout .pc-redirect__btn--ghost:focus {
+	border-color: var(--pc-action);
+	color: var(--pc-action);
+}
+
+.pc-checkout .pc-redirect__btn:focus-visible {
+	outline: 2px solid var(--pc-action);
+	outline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+	.pc-checkout .pc-redirect__actions { flex-direction: column; }
+	.pc-checkout .pc-redirect__btn { inline-size: 100%; }
+}
+
+img.pglp-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+}

@@ -1,0 +1,57 @@
+/**
+ * Shared token layer. Identical in every plugin of the family.
+ *
+ * Only --pc-accent and the hero gradient change between plugins; those live in pc-brand.css.
+ * Semantic colours are the fixed WordPress alert colours and never follow the admin colour
+ * scheme, so "success" reads as success whatever accent a plugin carries.
+ */
+
+.pc {
+	--pc-action: #12131a;
+	--pc-action-hover: #24252f;
+	--pc-head: #1d2327;
+	--pc-muted: #6b6f7b;
+	--pc-line: #e4e5ea;
+	--pc-field: #fbfbfc;
+	--pc-field-line: #b9bcc5;
+	--pc-track: #f6f6f8;
+	--pc-surface: #ffffff;
+	--pc-ground: #f0f0f0;
+
+	--pc-ok: #4ab866;
+	--pc-ok-bg: #eff9f1;
+	--pc-ok-ink: #1c6b33;
+	--pc-warn: #f0b849;
+	--pc-warn-bg: #fef8ee;
+	--pc-warn-ink: #8a5a00;
+	--pc-err: #cc1818;
+	--pc-err-bg: #fcf0f0;
+	--pc-err-ink: #a01212;
+
+	--pc-r-card: 12px;
+	--pc-r-panel: 10px;
+	--pc-r-field: 7px;
+	--pc-r-btn: 6px;
+	--pc-r-pill: 999px;
+
+	--pc-h-control: 38px;
+	--pc-h-btn: 34px;
+
+	--pc-s1: 4px;
+	--pc-s2: 8px;
+	--pc-s3: 12px;
+	--pc-s4: 16px;
+	--pc-s5: 24px;
+	--pc-s6: 32px;
+
+	--pc-focus: var(--wp-admin-theme-color, #3858e9);
+	--pc-focus-width: var(--wp-admin-border-width-focus, 1.5px);
+}
+
+@media (max-width: 782px) {
+	.pc {
+		/* WordPress raises control size on small screens; match it so iOS does not zoom on focus. */
+		--pc-h-control: 44px;
+		--pc-h-btn: 40px;
+	}
+}

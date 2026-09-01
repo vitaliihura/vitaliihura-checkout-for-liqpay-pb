@@ -1,0 +1,17 @@
+/**
+ * The only file that differs between plugins.
+ *
+ * The hero gradient is derived from the accent, not picked separately:
+ *   --pc-hero-a  a neutral dark, the same everywhere
+ *   --pc-hero-b  mix( #0d0e12, accent, 50% )
+ *   --pc-accent-soft  mix( #ffffff, accent, 9% )
+ *
+ * Emerald reads as money and as "went through", which is what a payment screen needs.
+ */
+
+.pc {
+	--pc-accent: #0b7a4b;
+	--pc-accent-soft: #e9f3ef;
+	--pc-hero-a: #1c1b21;
+	--pc-hero-b: #0c442f;
+}

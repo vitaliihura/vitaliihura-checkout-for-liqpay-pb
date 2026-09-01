@@ -1,0 +1,1111 @@
+# Copyright (C) 2026 Vitalii Hura
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: VitaliiHura Checkout for LiqPay 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/vitaliihura-checkout-for-liqpay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-05T12:21:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: vitaliihura-checkout-for-liqpay\n"
+
+#. Plugin Name of the plugin
+#: vitaliihura-checkout-for-liqpay.php
+msgid "VitaliiHura Checkout for LiqPay"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: vitaliihura-checkout-for-liqpay.php
+msgid "https://github.com/vitaliihura/vitaliihura-checkout-for-liqpay-pb"
+msgstr ""
+
+#. Description of the plugin
+#: vitaliihura-checkout-for-liqpay.php
+msgid "Accept payments in WooCommerce through LiqPay: hosted checkout, refunds and status recovery."
+msgstr ""
+
+#. Author of the plugin
+#: vitaliihura-checkout-for-liqpay.php
+msgid "Vitalii Hura"
+msgstr ""
+
+#. Author URI of the plugin
+#: vitaliihura-checkout-for-liqpay.php
+msgid "https://github.com/vitaliihura"
+msgstr ""
+
+#: includes/class-pglp-admin.php:24
+msgid "LiqPay Extended"
+msgstr ""
+
+#: includes/class-pglp-admin.php:25
+#: includes/class-pglp-admin.php:408
+#: includes/class-pglp-blocks.php:90
+#: includes/class-pglp-gateway.php:21
+#: includes/class-pglp-gateway.php:345
+#: assets/js/blocks.js:15
+msgid "LiqPay"
+msgstr ""
+
+#: includes/class-pglp-admin.php:26
+msgid "WooCommerce LiqPay"
+msgstr ""
+
+#: includes/class-pglp-admin.php:64
+msgid "Working…"
+msgstr ""
+
+#: includes/class-pglp-admin.php:65
+msgid "The request could not be completed."
+msgstr ""
+
+#: includes/class-pglp-admin.php:66
+#: includes/ui/class-pglp-ui.php:382
+msgid "Show"
+msgstr ""
+
+#: includes/class-pglp-admin.php:67
+msgid "Hide"
+msgstr ""
+
+#: includes/class-pglp-admin.php:68
+msgid "Copied"
+msgstr ""
+
+#: includes/class-pglp-admin.php:99
+#: includes/class-pglp-admin.php:137
+msgid "LiqPay payment"
+msgstr ""
+
+#: includes/class-pglp-admin.php:136
+msgid "Reference"
+msgstr ""
+
+#: includes/class-pglp-admin.php:138
+msgid "Method"
+msgstr ""
+
+#: includes/class-pglp-admin.php:139
+msgid "Card"
+msgstr ""
+
+#: includes/class-pglp-admin.php:140
+msgid "Card type"
+msgstr ""
+
+#: includes/class-pglp-admin.php:141
+msgid "Acquirer"
+msgstr ""
+
+#: includes/class-pglp-admin.php:142
+msgid "RRN"
+msgstr ""
+
+#: includes/class-pglp-admin.php:143
+msgid "Authorisation code"
+msgstr ""
+
+#: includes/class-pglp-admin.php:144
+msgid "3-D Secure"
+msgstr ""
+
+#: includes/class-pglp-admin.php:144
+#: includes/class-pglp-admin.php:388
+#: includes/class-pglp-admin.php:390
+msgid "Yes"
+msgstr ""
+
+#: includes/class-pglp-admin.php:151
+msgid "Charged"
+msgstr ""
+
+#: includes/class-pglp-admin.php:157
+msgid "Commission"
+msgstr ""
+
+#: includes/class-pglp-admin.php:166
+#: includes/class-pglp-admin.php:193
+#: includes/class-pglp-statuses.php:144
+msgid "Refunded"
+msgstr ""
+
+#: includes/class-pglp-admin.php:170
+#: includes/class-pglp-admin.php:389
+msgid "Mode"
+msgstr ""
+
+#: includes/class-pglp-admin.php:170
+#: includes/class-pglp-admin.php:389
+msgid "Test"
+msgstr ""
+
+#: includes/class-pglp-admin.php:193
+msgid "Partly refunded"
+msgstr ""
+
+#: includes/class-pglp-admin.php:209
+msgid "No payment yet"
+msgstr ""
+
+#: includes/class-pglp-admin.php:210
+msgid "Once the customer pays, the transaction details appear here."
+msgstr ""
+
+#: includes/class-pglp-admin.php:222
+msgid "Refresh from LiqPay"
+msgstr ""
+
+#: includes/class-pglp-admin.php:241
+msgid "You are not allowed to manage this order."
+msgstr ""
+
+#: includes/class-pglp-admin.php:248
+#: includes/class-pglp-api.php:169
+#: includes/class-pglp-gateway.php:264
+msgid "LiqPay API keys are not configured."
+msgstr ""
+
+#: includes/class-pglp-admin.php:258
+msgid "LiqPay has no record of a payment for this order yet."
+msgstr ""
+
+#. translators: %s: payment status reported by LiqPay.
+#: includes/class-pglp-admin.php:267
+#, php-format
+msgid "LiqPay reports: %s"
+msgstr ""
+
+#: includes/class-pglp-admin.php:285
+#: includes/class-pglp-admin.php:502
+msgid "You are not allowed to change payment settings."
+msgstr ""
+
+#: includes/class-pglp-admin.php:291
+msgid "The LiqPay gateway is not available."
+msgstr ""
+
+#: includes/class-pglp-admin.php:304
+msgid "Enter both keys first."
+msgstr ""
+
+#. translators: %s: transport error message.
+#: includes/class-pglp-admin.php:314
+#, php-format
+msgid "Your server could not reach LiqPay: %s"
+msgstr ""
+
+#: includes/class-pglp-admin.php:322
+msgid "LiqPay accepted these keys."
+msgstr ""
+
+#. translators: %s: message returned by LiqPay.
+#: includes/class-pglp-admin.php:331
+#, php-format
+msgid "LiqPay refused the request: %s"
+msgstr ""
+
+#: includes/class-pglp-admin.php:332
+msgid "no reason given."
+msgstr ""
+
+#: includes/class-pglp-admin.php:387
+msgid "Version"
+msgstr ""
+
+#: includes/class-pglp-admin.php:388
+#: includes/class-pglp-gateway.php:437
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-pglp-admin.php:388
+#: includes/class-pglp-admin.php:390
+msgid "No"
+msgstr ""
+
+#: includes/class-pglp-admin.php:389
+msgid "Live"
+msgstr ""
+
+#: includes/class-pglp-admin.php:390
+msgid "Keys present"
+msgstr ""
+
+#: includes/class-pglp-admin.php:391
+msgid "Payment type"
+msgstr ""
+
+#: includes/class-pglp-admin.php:392
+msgid "API version"
+msgstr ""
+
+#: includes/class-pglp-admin.php:393
+#: includes/class-pglp-gateway-settings.php:359
+msgid "Notification URL"
+msgstr ""
+
+#: includes/class-pglp-admin.php:394
+msgid "Last notification"
+msgstr ""
+
+#. translators: %s: human readable time difference.
+#: includes/class-pglp-admin.php:397
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-pglp-admin.php:400
+msgid "Never"
+msgstr ""
+
+#: includes/class-pglp-admin.php:401
+#: includes/class-pglp-gateway-settings.php:365
+msgid "Status recovery"
+msgstr ""
+
+#: includes/class-pglp-admin.php:401
+msgid "Scheduled"
+msgstr ""
+
+#: includes/class-pglp-admin.php:401
+msgid "Off"
+msgstr ""
+
+#: includes/class-pglp-admin.php:402
+msgid "Site languages"
+msgstr ""
+
+#. translators: %s: name of the plugin the settings would come from.
+#: includes/class-pglp-admin.php:468
+#, php-format
+msgid "Settings from %s were found on this site. They can be copied into VitaliiHura Checkout for LiqPay so you do not have to enter your keys again."
+msgstr ""
+
+#: includes/class-pglp-admin.php:472
+msgid "Copy the settings"
+msgstr ""
+
+#: includes/class-pglp-admin.php:473
+msgid "No thanks"
+msgstr ""
+
+#: includes/class-pglp-admin.php:588
+msgid "The LiqPay settings were copied. Check the keys and the payment method before you take an order."
+msgstr ""
+
+#: includes/class-pglp-admin.php:593
+msgid "The shop you copied from blocked the amount on the card and captured it later. This version charges the card straight away, so that setting was not copied."
+msgstr ""
+
+#: includes/class-pglp-api.php:176
+msgid "The request is missing an action."
+msgstr ""
+
+#. translators: %s: currency code, for example UAH.
+#: includes/class-pglp-api.php:184
+#, php-format
+msgid "LiqPay does not accept payments in %s."
+msgstr ""
+
+#: includes/class-pglp-api.php:274
+#: includes/class-pglp-api.php:301
+msgid "LiqPay returned an unreadable response."
+msgstr ""
+
+#. translators: %s: error code returned by LiqPay.
+#: includes/class-pglp-api.php:331
+#, php-format
+msgid "LiqPay refused the request (%s)."
+msgstr ""
+
+#: includes/class-pglp-api.php:334
+msgid "LiqPay refused the request."
+msgstr ""
+
+#: includes/class-pglp-blocks.php:95
+#: includes/class-pglp-gateway.php:121
+msgid "Test mode is on. No money will be taken."
+msgstr ""
+
+#. translators: %s: short explanation of the mismatch.
+#: includes/class-pglp-callback.php:186
+#, php-format
+msgid "A LiqPay notification for this order was rejected: %s"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:42
+#: includes/class-pglp-gateway-settings.php:128
+msgid "Availability"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:43
+msgid "Name and description"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:44
+msgid "What the customer sees when choosing how to pay."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:50
+msgid "API keys"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:51
+msgid "Live and test, mode"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:52
+msgid "Both key pairs are issued in your LiqPay merchant account. Test keys always begin with sandbox_."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:58
+msgid "Payment"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:59
+msgid "How the payment is created"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:60
+msgid "What LiqPay is asked to do and what the customer sees on its page."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:66
+msgid "Order statuses"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:67
+msgid "What to set and when"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:68
+msgid "Override these only if your workflow needs something other than the WooCommerce defaults."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:74
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:75
+msgid "Icon at checkout"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:76
+msgid "The plugin ships neutral marks. To display the LiqPay logo, download it from the LiqPay brand book, upload it to your media library and point the icon setting at it."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:82
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:83
+msgid "Notifications, recovery, log"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:84
+msgid "Nothing here needs changing on a normal shop."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:129
+msgid "Offer LiqPay at checkout"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:134
+msgid "Title"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:136
+msgid "Card, Apple Pay, Google Pay"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:137
+msgid "The name customers see at checkout."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:144
+msgid "Description"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:146
+msgid "You will be redirected to the secure LiqPay page to complete the payment."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:163
+msgid "Public key"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:166
+msgid "Identifies your shop. Safe to be visible."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:169
+msgid "Private key"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:172
+msgid "Signs every request and verifies every notification. Never share it."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:175
+#: includes/class-pglp-gateway.php:400
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:176
+msgid "Use the sandbox keys instead of the live ones"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:181
+msgid "Test public key"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:189
+msgid "Test private key"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:197
+msgid "Restrict test mode"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:198
+msgid "Hide the method from everyone except shop managers while test mode is on"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:201
+msgid "Lets you test on a live shop without customers seeing the method."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:216
+msgid "Methods on the LiqPay page"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:221
+msgid "This method will be available in a future update."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:222
+msgid "Leave empty to use the selection configured in your LiqPay account. A method still has to be enabled on the LiqPay side before it appears."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:225
+msgid "Payment page language"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:229
+msgid "Follow the language of the order"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:230
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:231
+msgid "English"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:233
+msgid "LiqPay renders its page in Ukrainian or English only."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:236
+msgid "Payment purpose"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:239
+msgid "Payment for order {order_number}"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:240
+msgid "Shown to the customer on the LiqPay page and printed on the card statement, so it follows the language of the order. Placeholders: {order_number}, {order_id}, {site_title}, {billing_first_name}, {billing_last_name}, {billing_email}, {total}, {currency}."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:247
+msgid "Payment link lifetime"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:254
+msgid "Minutes before an unpaid link stops working. Zero leaves it open."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:257
+msgid "Billing details"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:258
+msgid "Send the billing name and address with the payment"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:261
+msgid "LiqPay uses these for fraud scoring."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:264
+msgid "Order contents"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:265
+msgid "Send the product names and the order link with the payment"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:270
+msgid "Payment reference prefix"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:273
+msgid "Useful when several shops share one LiqPay account. Changing it does not affect existing orders."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:285
+msgid "Leave it to WooCommerce"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:289
+msgid "After a successful payment"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:293
+msgid "WooCommerce normally picks processing, or completed for downloadable orders."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:296
+msgid "While an amount is blocked"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:300
+msgid "LiqPay reports this state only when it blocked the amount instead of charging it."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:303
+msgid "While LiqPay verifies the payment"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:307
+msgid "Applies to the wait_secure and wait_accept states."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:320
+msgid "Checkout icon"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:324
+msgid "Card mark"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:325
+msgid "My own image"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:326
+msgid "No icon"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:330
+msgid "Icon URL"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:333
+msgid "Full address of the image to show next to the payment method title."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:338
+msgid "Icon height"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:346
+msgid "Height in pixels."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:362
+msgid "Sent with every payment, so there is nothing to configure in LiqPay. Shown here for troubleshooting."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:366
+msgid "Ask LiqPay about unfinished orders once an hour"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:369
+msgid "Catches payments whose notification never reached your site."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:372
+msgid "How far back to look"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:380
+msgid "Hours. Orders older than this are left alone."
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:385
+msgid "LiqPay receipt"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:386
+msgid "Ask LiqPay to email its own payment receipt to the customer"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:391
+msgid "Logging"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:392
+msgid "Record requests and notifications in the WooCommerce log"
+msgstr ""
+
+#. translators: %s: link to the WooCommerce log screen.
+#: includes/class-pglp-gateway-settings.php:397
+#, php-format
+msgid "Errors are always recorded. Everything else only while this is on. %s"
+msgstr ""
+
+#: includes/class-pglp-gateway-settings.php:398
+#: includes/class-pglp-gateway.php:378
+msgid "View logs"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:22
+msgid "Accept card, Apple Pay, Google Pay and Privat24 payments through LiqPay."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:152
+msgid "Waiting for the customer to pay at LiqPay."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:189
+msgid "LiqPay is not configured, so this order cannot be paid right now."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:225
+msgid "Taking you to LiqPay"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:226
+msgid "If nothing happens in a few seconds, use the button below."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:232
+msgid "Pay now"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:233
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:252
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:258
+msgid "The refund amount must be above zero."
+msgstr ""
+
+#. translators: %s: refunded amount with currency.
+#: includes/class-pglp-gateway.php:276
+#: includes/class-pglp-order-handler.php:674
+#, php-format
+msgid "LiqPay refunded %s."
+msgstr ""
+
+#. translators: %s: reason entered by the shop manager.
+#: includes/class-pglp-gateway.php:283
+#, php-format
+msgid "Reason: %s"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:291
+msgid "The amount will be taken from an upcoming settlement."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:346
+msgid "Card, Apple Pay, Google Pay, Privat24"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:376
+msgid "Changes apply as soon as they are saved."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:379
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:408
+msgid "Add your API keys to start"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:409
+msgid "The method stays hidden at checkout until both keys are in place."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:418
+msgid "Keys are in place, the method is switched off"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:419
+msgid "Turn on Availability below to offer LiqPay at checkout."
+msgstr ""
+
+#. translators: %s: human readable time difference, for example "12 minutes".
+#: includes/class-pglp-gateway.php:429
+#, php-format
+msgid "Last notification from LiqPay %s ago."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:432
+msgid "No notification has arrived from LiqPay yet."
+msgstr ""
+
+#: includes/class-pglp-gateway.php:444
+msgid "Ready to take payments"
+msgstr ""
+
+#: includes/class-pglp-gateway.php:470
+msgid "Test connection"
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:327
+msgid "the notification did not say which currency was paid."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:331
+msgid "the currency does not match the order."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:335
+msgid "the notification did not say how much was paid."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:340
+msgid "the amount is lower than the order total."
+msgstr ""
+
+#. translators: %s: short explanation of why the confirmation was refused.
+#: includes/class-pglp-order-handler.php:405
+#, php-format
+msgid "A LiqPay payment confirmation for this order was refused: %s"
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:463
+msgid "LiqPay has reserved the funds against a refund request."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:506
+msgid "LiqPay confirmed the payment."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:543
+msgid "LiqPay reported a card block for an order that is already paid. No change was made."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:554
+msgid "LiqPay blocked the amount on the card. Capture or release it in your LiqPay account."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:594
+msgid "LiqPay reported a failure for an order that is already paid. No change was made."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:600
+msgid "LiqPay declined the payment."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:632
+msgid "LiqPay reported a refund without an amount. Check the payment in your LiqPay account and record the refund by hand."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:649
+msgid "LiqPay reported a refund that is already recorded on this order, so nothing was changed."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:659
+msgid "Refunded in LiqPay."
+msgstr ""
+
+#: includes/class-pglp-order-handler.php:664
+msgid "LiqPay reported a refund but WooCommerce could not record it."
+msgstr ""
+
+#. translators: %s: LiqPay payment status.
+#: includes/class-pglp-order-handler.php:693
+#, php-format
+msgid "Status: %s."
+msgstr ""
+
+#. translators: %s: identifier of the payment inside LiqPay.
+#: includes/class-pglp-order-handler.php:701
+#, php-format
+msgid "LiqPay reference: %s."
+msgstr ""
+
+#. translators: %s: payment method used by the customer.
+#: includes/class-pglp-order-handler.php:709
+#, php-format
+msgid "Method: %s."
+msgstr ""
+
+#. translators: %s: masked card number.
+#: includes/class-pglp-order-handler.php:717
+#, php-format
+msgid "Card: %s."
+msgstr ""
+
+#: includes/class-pglp-plugin.php:123
+msgid "Settings"
+msgstr ""
+
+#: includes/class-pglp-plugin.php:155
+msgid "VitaliiHura Checkout for LiqPay requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-pglp-privacy.php:35
+msgid "This wording covers what LiqPay receives and what stays on the order. Adjust it to how long your shop keeps orders."
+msgstr ""
+
+#: includes/class-pglp-privacy.php:37
+msgid "When a customer pays with LiqPay, we send the payment service the order reference, the amount, the currency, the payment purpose and the addresses it should return the customer to. If the matching settings are enabled, we also send the billing name and address and the names of the products ordered."
+msgstr ""
+
+#: includes/class-pglp-privacy.php:39
+msgid "LiqPay sends back, and we keep on the order, the payment status and identifiers, the method used, a masked card number, the card brand and issuing bank, the acquirer identifier, the authorisation code and the commission. Card numbers, expiry dates and security codes are entered on the LiqPay page and never reach this site."
+msgstr ""
+
+#: includes/class-pglp-privacy.php:41
+msgid "This data is kept with the order for as long as the shop keeps its orders, because it is part of the payment record."
+msgstr ""
+
+#. translators: %s: order number.
+#: includes/class-pglp-request-builder.php:144
+#, php-format
+msgid "Payment for order %s"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:92
+msgid "Waiting for 3-D Secure confirmation"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:93
+msgid "Waiting for captcha confirmation"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:94
+msgid "Waiting for cash payment at a self-service terminal"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:95
+msgid "Waiting for card CVV confirmation"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:96
+msgid "Payment failed because the data was rejected"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:97
+msgid "Payment expired"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:98
+msgid "Payment failed"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:99
+msgid "Amount blocked on the card, awaiting capture"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:100
+msgid "Invoice issued, waiting for payment"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:101
+msgid "Waiting for confirmation by phone call"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:102
+msgid "Waiting for confirmation in the wallet"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:103
+msgid "Waiting for the one-time password"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:104
+#: includes/class-pglp-statuses.php:105
+msgid "Waiting for confirmation in Privat24"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:106
+msgid "Waiting for the customer to enter a phone number"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:107
+msgid "Waiting for PIN confirmation"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:108
+msgid "Payment created, waiting for the customer"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:109
+msgid "Payment is being processed"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:110
+msgid "Payment refunded"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:111
+msgid "Test payment completed"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:112
+msgid "Waiting for confirmation in the mobile app"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:113
+msgid "Subscription created"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:114
+msgid "Payment successful"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:115
+msgid "Payment unsuccessful, the customer can try again"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:116
+msgid "Subscription cancelled"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:117
+msgid "Money withdrawn, waiting for the shop to be verified by LiqPay"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:118
+msgid "Waiting for the recipient to choose a payout method"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:119
+msgid "Payment successful, awaiting the daily settlement"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:120
+msgid "Protected payment charged, waiting for delivery confirmation"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:121
+msgid "Waiting for the customer to scan the QR code"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:122
+msgid "Funds reserved against a refund request"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:123
+msgid "Payment is being verified by LiqPay"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:124
+msgid "Waiting for confirmation in Privat24 or SENDER"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:138
+msgid "Paid"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:139
+msgid "Blocked"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:140
+msgid "Being verified"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:141
+msgid "Reserved"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:142
+msgid "Waiting"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:143
+msgid "Declined"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:159
+msgid "Bank card"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:160
+msgid "Apple Pay"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:161
+msgid "Google Pay"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:162
+msgid "Privat24"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:163
+msgid "Instalments"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:164
+msgid "Payment in parts"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:165
+msgid "QR code"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:166
+msgid "Cash at a self-service terminal"
+msgstr ""
+
+#: includes/class-pglp-statuses.php:167
+msgid "Invoice by email"
+msgstr ""
+
+#: includes/ui/class-pglp-ui.php:44
+msgid "less than a minute"
+msgstr ""
+
+#. translators: %s: number of minutes.
+#: includes/ui/class-pglp-ui.php:51
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of hours.
+#: includes/ui/class-pglp-ui.php:58
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of days.
+#: includes/ui/class-pglp-ui.php:64
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ui/class-pglp-ui.php:168
+msgid "Settings sections"
+msgstr ""
+
+#: includes/ui/class-pglp-ui.php:391
+msgid "Copy"
+msgstr ""
+
+#: includes/ui/class-pglp-ui.php:447
+msgid "Value language"
+msgstr ""
